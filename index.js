@@ -10,3 +10,6 @@ function iterate(callback) {
   return khCharacters
 }
 
+function doToArray(array, callback) {
+  array.forEach(callback)
+}
