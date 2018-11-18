@@ -3,3 +3,10 @@ function iterativeLog(array) {
     console.log(`${index}: ${element}`)
   })
 }
+
+function iterate(callback) {
+  var khCharacters = ['sora', 'kairi', 'riku', 'ven', 'aqua', 'terra'];
+  khCharacters.forEach(callback);
+  return khCharacters
+}
+
